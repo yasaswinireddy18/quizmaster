@@ -1,0 +1,278 @@
+What is the time complexity of binary search?
+O(n)
+O(log n)
+O(n log n)
+O(1)
+2
+
+Which structure is used in DFS?
+Queue
+Stack
+Array
+Hash Table
+2
+
+Which sorting algorithm is NOT stable?
+Merge Sort
+Bubble Sort
+Insertion Sort
+Quick Sort
+4
+
+Which keyword supports runtime polymorphism?
+static
+virtual
+inline
+friend
+2
+
+Which of these is NOT allowed in C++?
+Function overloading
+Operator overloading
+Constructor overloading
+Destructor overloading
+4
+
+What is the time complexity of heap sort?
+O(n^2)
+O(n)
+O(n log n)
+O(log n)
+3
+
+Which casts are safest in C++?
+reinterpret_cast
+static_cast
+const_cast
+dynamic_cast
+4
+
+What does RAII stand for?
+Resource Acquisition Is Initialization
+Random Access Is Immediate
+Runtime Allocation Internal Interface
+Resource Allocation In Init
+1
+
+Which pointer type stores address of any data type?
+void*
+char*
+int*
+auto*
+1
+
+Which memory allocation happens on the stack?
+new
+malloc
+automatic variables
+calloc
+3
+
+Which is NOT part of the STL?
+vector
+map
+thread
+set
+3
+
+Which algorithm is used in Dijkstra’s shortest path?
+BFS
+DFS
+Greedy algorithm
+Dynamic programming
+3
+
+Which operation is not allowed on a queue?
+Enqueue
+Dequeue
+Push at front
+Check empty
+3
+
+Which tree traversal gives sorted order for BST?
+Preorder
+Postorder
+Inorder
+Level order
+3
+
+Which of these allows multiple inheritance?
+Java
+Python
+C++
+SQL
+3
+
+Which is used to avoid dangling pointers?
+nullptr
+NULL
+0
+void
+1
+
+Which scheduling algorithm uses priority?
+Round Robin
+FCFS
+Priority Scheduling
+SJF
+3
+
+Which function is used to release memory in C++?
+delete
+remove
+dealloc
+free
+1
+
+What is the size of a pointer on 64-bit?
+2 bytes
+4 bytes
+8 bytes
+16 bytes
+3
+
+Which search technique checks each element?
+Binary search
+DFS
+Linear search
+Hashing
+3
+What is the time complexity of binary search?
+O(n)
+O(log n)
+O(n log n)
+O(1)
+2
+
+Which structure is used in DFS?
+Queue
+Stack
+Array
+Hash Table
+2
+
+Which sorting algorithm is NOT stable?
+Merge Sort
+Bubble Sort
+Insertion Sort
+Quick Sort
+4
+
+Which keyword supports runtime polymorphism?
+static
+virtual
+inline
+friend
+2
+
+Which of these is NOT allowed in C++?
+Function overloading
+Operator overloading
+Constructor overloading
+Destructor overloading
+4
+
+What is the time complexity of heap sort?
+O(n^2)
+O(n)
+O(n log n)
+O(log n)
+3
+
+Which casts are safest in C++?
+reinterpret_cast
+static_cast
+const_cast
+dynamic_cast
+4
+
+What does RAII stand for?
+Resource Acquisition Is Initialization
+Random Access Is Immediate
+Runtime Allocation Internal Interface
+Resource Allocation In Init
+1
+
+Which pointer type stores address of any data type?
+void*
+char*
+int*
+auto*
+1
+
+Which memory allocation happens on the stack?
+new
+malloc
+automatic variables
+calloc
+3
+
+Which is NOT part of the STL?
+vector
+map
+thread
+set
+3
+
+Which algorithm is used in Dijkstra’s shortest path?
+BFS
+DFS
+Greedy algorithm
+Dynamic programming
+3
+
+Which operation is not allowed on a queue?
+Enqueue
+Dequeue
+Push at front
+Check empty
+3
+
+Which tree traversal gives sorted order for BST?
+Preorder
+Postorder
+Inorder
+Level order
+3
+
+Which of these allows multiple inheritance?
+Java
+Python
+C++
+SQL
+3
+
+Which is used to avoid dangling pointers?
+nullptr
+NULL
+0
+void
+1
+
+Which scheduling algorithm uses priority?
+Round Robin
+FCFS
+Priority Scheduling
+SJF
+3
+
+Which function is used to release memory in C++?
+delete
+remove
+dealloc
+free
+1
+
+What is the size of a pointer on 64-bit?
+2 bytes
+4 bytes
+8 bytes
+16 bytes
+3
+
+Which search technique checks each element?
+Binary search
+DFS
+Linear search
+Hashing
+3

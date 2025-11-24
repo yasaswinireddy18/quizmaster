@@ -12,15 +12,16 @@ struct Question {
     int correct;
 };
 
-int main() {
-    ifstream file("questions.txt");
+vector<Question> loadQuestions(string filename) {
+    ifstream file(filename);
+    vector<Question> questions;
+
     if (!file.is_open()) {
-        cout << "Could not open questions.txt\n";
-        return 0;
+        cout << "Could not open " << filename << "\n";
+        return questions;
     }
 
-    vector<Question> questions;
-    string question, opt1, opt2, opt3, opt4;
+    string question, opt1, opt2, opt3, opt4, blank;
     int correct;
 
     while (getline(file, question)) {
@@ -28,16 +29,40 @@ int main() {
         getline(file, opt2);
         getline(file, opt3);
         getline(file, opt4);
+
         file >> correct;
         file.ignore();
 
         questions.push_back({question, opt1, opt2, opt3, opt4, correct});
-
-        string blank;
         getline(file, blank);
     }
 
-    // Randomize questions
+    return questions;
+}
+
+int main() {
+    int choice;
+    cout << "Choose difficulty:\n";
+    cout << "1. Easy\n2. Medium\n3. Hard\n";
+    cin >> choice;
+
+    string filename;
+
+    if (choice == 1) filename = "easy.txt";
+    else if (choice == 2) filename = "medium.txt";
+    else if (choice == 3) filename = "hard.txt";
+    else {
+        cout << "Invalid choice.\n";
+        return 0;
+    }
+
+    vector<Question> questions = loadQuestions(filename);
+    
+    if (questions.empty()) {
+        cout << "No questions available.\n";
+        return 0;
+    }
+
     srand(time(0));
     random_shuffle(questions.begin(), questions.end());
 
@@ -63,3 +88,4 @@ int main() {
 
     return 0;
 }
+

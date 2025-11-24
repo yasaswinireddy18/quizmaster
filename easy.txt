@@ -1,0 +1,69 @@
+What is 2 + 2?
+1
+2
+3
+4
+4
+
+Which one is a vowel?
+b
+c
+a
+t
+3
+
+What color is the sky on a clear day?
+Blue
+Green
+Yellow
+Red
+1
+
+How many days are in a week?
+5
+6
+7
+8
+3
+
+Which animal barks?
+Cat
+Dog
+Lion
+Cow
+2
+
+Which planet is known as the Red Planet?
+Earth
+Mars
+Jupiter
+Venus
+2
+
+How many letters are in the English alphabet?
+24
+25
+26
+27
+3
+
+Which one is a fruit?
+Carrot
+Potato
+Apple
+Spinach
+3
+
+Which shape has 3 sides?
+Square
+Triangle
+Circle
+Rectangle
+2
+
+What do plants need for photosynthesis?
+Iron
+Plastic
+Sunlight
+Salt
+3
