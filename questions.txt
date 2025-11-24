@@ -1,0 +1,20 @@
+What is the capital of France?
+Paris
+London
+Berlin
+Rome
+1
+
+Which data structure uses FIFO?
+Stack
+Queue
+Tree
+Graph
+2
+
+Which keyword is used to create an object in C++?
+new
+class
+this
+make
+1
